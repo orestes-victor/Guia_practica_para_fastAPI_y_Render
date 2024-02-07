@@ -3,11 +3,11 @@ Este repositorio nace para facilitar el camino a usuario que necesiten hacer fun
 
 La explicación de parte de tener preparado el archivo main.py con el codigo listo de las funciones para correr en fastAPI, dichas funciones buscaran los datos en nuestros archivos parquet que se encuentran en la carpeta Dataset.
 
-#Entorno virtual
+## Entorno virtual
 Explicación de como instalar, activar y desactivar un entorno virtual
 
-FastAPI
+## FastAPI
 Explicación de como instalar y correr fastAPI
 
-RENDER
+## RENDER
 Explicación de como correr fastAPI en RENDER
