@@ -25,7 +25,7 @@ def top_gastadores_por_anio(df, year):
 async def top_gastadores_by_year(year: int):
     try:
         # Cambia la ruta del archivo según la ubicación de tu archivo df_endpoint_1.parquet
-        df = pd.read_parquet("C:/Users/Usuario/Desktop/Repositorios Github/Repositorio_guia_para_fastAPI_y_RENDER/Dataset/dataset_endpoint_1.parquet")
+        df = pd.read_parquet("Dataset/dataset_endpoint_1.parquet")
 
         # Aplicar la función para obtener el top de gastadores por año
         result = top_gastadores_por_anio(df, year)
