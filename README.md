@@ -1,13 +1,15 @@
-# Repositorio guia para fastAPI y RENDER
-Este repositorio nace para facilitar el camino al usuario que necesita hacer funcionar su proyecto en fastAPI y en RENDER.
+# Guia para fastAPI y RENDER
+Este repositorio nace para facilitar el camino a quien necesite hacer funcionar su proyecto en fastAPI y en RENDER.
 
-La explicación parte de tener preparado el archivo main.py con el codigo listo de las funciones para correr fastAPI, dichas funciones buscaran los datos en nuestros archivos parquet que se encuentran en la carpeta Dataset.
+La explicación parte de tener ya listo el archivo `main.py` con el codigo listo de las funciones para funcionar en fastAPI, dichas funciones buscarán los datos en este caso en formato `.parquet` que se encuentran en la carpeta Dataset.
+
+<br/>
 
 ## Instalar el archivo `requirements.txt`
 
-  Agrego el archivo requirements.txt:
+  Agrego el archivo requirements.txt a la carpeta del proyecto en visual estudio:
   
-  1. En la carpeta del proyecto en VisualStudio y en la consola de comando (terminal) pego lo siguiente:
+  1. En la consola de comando (terminal) pego lo siguiente:
 
   ```
   pip install -r requirements.txt
